@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Recycler_Frag</string>
+
+
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="check_hobbies">Hobbies</string>
+    <string name="cricket">Cricket</string>
+    <string name="football">Football</string>
+    <string name="photography">Photography</string>
+    <string name="dob">DOB</string>
+    <string-array name="spinner_array">
+        <item>Java</item>
+        <item>XML</item>
+    </string-array>
+    <string name="address">Address</string>
+    <string name="submit">Submit</string>
+    <string name="sharedpreferences">SAVE IN SHAREDPREFERENCES</string>
+</resources>
+

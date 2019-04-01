@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:id="@+id/level1"
+    android:background="@android:color/white">
+
+
+
+
+
+
+    //name
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="15"
+            android:padding="20dp"
+            android:hint="Name "></EditText>
+
+    </android.support.design.widget.TextInputLayout>
+    //phone number
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="15"
+            android:inputType="number"
+            android:hint="Phone Number "
+            android:padding="20dp"></EditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+    //gender
+
+    <TextView
+        android:id="@+id/txt_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_phone"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:padding="5dp"
+        android:text="Gender:"
+        android:textColor="#000"></TextView>
+
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_gender">
+
+        <RadioButton
+            android:id="@+id/rd_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/rd_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/txt_gender_item"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rg_gender"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:padding="5dp"
+        android:text=""
+        android:visibility="visible"
+        ></TextView>
+
+    //Hobbies
+
+    <TextView
+        android:id="@+id/txt_hobby"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_gender_item"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:padding="5dp"
+
+        android:text="Hobbies:"
+        android:textColor="#000"></TextView>
+
+    <CheckBox
+        android:id="@+id/cb_cricket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_hobby"
+        android:text="@string/cricket"
+
+        />
+
+    <CheckBox
+        android:id="@+id/cb_football"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb_cricket"
+        android:text="@string/football"
+
+
+        />
+
+    <CheckBox
+        android:id="@+id/cb_photgraphy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb_football"
+        android:text="@string/photography"
+
+
+
+        />
+
+    <TextView
+        android:id="@+id/txt_hobbies_item"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb_photgraphy"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:padding="10dp"
+        android:text=""
+        android:visibility="visible"
+        ></TextView>
+
+
+    //DOB
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txt_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="15"
+            android:inputType="date"
+            android:hint=" Date Of Birth "
+            android:padding="20dp"
+            ></EditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+    //Address
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="15"
+            android:hint="Address "
+            android:padding="20dp"    ></EditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <!--<android.support.design.widget.TextInputLayout-->
+    <!--android:id="@+id/username_text_input_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/etUsername"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:ems="10"-->
+    <!--android:hint="Username"></EditText>-->
+
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+
+
+    <Button
+        android:id="@+id/btn_Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btnsubmit"
+        android:drawableRight="@drawable/ic_person"
+
+
+        android:text="Submit" />
+
+
+</LinearLayout>
+
+

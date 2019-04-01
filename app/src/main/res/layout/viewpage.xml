@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:gravity="center"
+    android:id="@+id/vl1"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/txt0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:gravity=""
+        android:text="ID:"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:gravity="left"
+        android:text="ID" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:gravity=""
+        android:text="Name:"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:gravity="left"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txt_name"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:gravity=""
+        android:text="Phone Number:" />
+
+    <TextView
+        android:id="@+id/txt_phone"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name"
+        android:text="Phone-No"
+        android:paddingLeft="0dip"
+        android:ellipsize="end"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txt_name"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:gravity=""
+        android:text="Gender:" />
+
+    <TextView
+        android:gravity="left"
+        android:id="@+id/txt_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txt_name"
+        android:text="(G)"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txt_name"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:gravity=""
+        android:text="Hobbies:" />
+
+    <TextView
+        android:id="@+id/txt_hobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_phone"
+        android:text="(H)"
+        android:gravity="left"
+        android:paddingBottom="5dip"
+        android:ellipsize="end"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:maxLines="1"/>
+
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:gravity=""
+        android:text="Dob:" />
+
+    <TextView
+        android:id="@+id/txt_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:textColor="@android:color/black"
+        android:text="(Dob)"
+    />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txt_name"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:gravity=""
+        android:text="Address:" />
+
+    <TextView
+        android:id="@+id/txt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hobby"
+        android:text="(A)"
+        android:gravity="left"
+        android:paddingBottom="5dip"
+        android:ellipsize="end"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:maxLines="1"/>
+
+
+
+
+
+
+
+</LinearLayout>
